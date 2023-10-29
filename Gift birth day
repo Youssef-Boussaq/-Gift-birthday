@@ -1,0 +1,6 @@
+g=[]
+s=1000
+for i in range(0,20):
+    s=s+s*0.02
+    g.append(s)
+    print(f" in birthday   {i+1}  totoal of compte is",g[i])
